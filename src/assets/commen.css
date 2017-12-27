@@ -1,0 +1,202 @@
+
+@media screen and ( min-width: 1200px ) {
+	.header {
+		width: 1000px;
+		margin: 0 auto;
+		height: 60px;
+	}
+	.nav > ul {
+		width: 1000px;
+		margin: 0 auto;
+	}
+	.content {
+		width: 1000px;
+		margin: 0 auto;
+	}
+	.footer {
+		width: 1000px;
+		margin: 0 auto;
+		height: 160px;
+	}
+}
+
+@media screen and ( min-width: 992px ) and ( max-width: 1199px ) {
+	.header { 
+		width: 900px;
+		height: 60px;
+		margin: 0 auto;
+	}
+	.nav > ul {
+		width: 900px;
+		/*height: */
+		margin: 0 auto;
+	}
+	.content {
+		width: 900px;
+		margin: 0 auto;
+	}
+	.footer {
+		width: 900px;
+		height: 160px;
+		margin: 0 auto;
+	}
+}
+
+/* commen */
+.empty {
+	clear: both;
+}
+
+/* header */
+.header {
+	vertical-align: middle;
+}
+.header > img {
+	width: 60px;
+}
+.header > span {
+	font-size: 36px;
+	font-family: "黑体";
+	position: relative;
+	top: -16px;
+}
+.right {
+	float: right;
+}
+.header > .right {
+	height: inherit;
+}
+.header > .right > span {
+	margin: 0 8px;
+	position: relative;
+	top: 20px;
+}
+
+/* nav */
+.nav {
+	width: 100%;
+	margin-top: 4px;
+	margin-bottom: 10px;
+}
+.nav > ul {
+	padding: 0;
+	height: 38px;
+	background: #d33;
+}
+.nav li {
+	list-style: none;
+	float: left;
+	margin: 7px 15px;
+	font-size: 16px;
+	color: #fff;
+}
+
+/* banner */
+.imgvue {
+	float: left;
+	/*width: 72%;*/
+}
+.imgvue > img {
+	width: 100%;
+}
+.handles {
+	float: left;
+	width: 300px;
+	margin-left: -20px;
+}
+.handle {
+	background: #222;
+	/*background-size: contain;*/
+	height: 83.2px;
+	/*height: 20%;*/
+	margin: 0;
+	color: #fff;
+	border-top: 1px solid #444;
+	border-bottom: 1px solid #000;
+	box-sizing: border-box;
+	padding: 0 30px;
+	/*justify-content: center;
+	align-items: center;
+	display: -webkit-flex;*/
+	position: relative;
+}
+.handle > p {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	/*margin-top: -50%;*/
+	transform: translateY(-50%);
+}
+.handle:hover {
+	background: url('../assets/hover_bg.png') bottom right no-repeat;
+	background-size: 100% 100%;
+}
+
+ /*military */
+ .military {
+ 	margin: 10px 0;
+ }
+ .titleheader {
+ 	height: 38px;
+ 	background: #e4c4c4;
+ 	display: flex;
+ 	align-items: center;
+ }
+ .titleheader > img {
+ 	width: 30px;
+ 	margin: 5px 5px;
+ }
+ .titleheader > span {
+ 	align-items: bottom;
+ }
+ .listarticle,
+ .listeconomic {
+ 	float: left;
+ 	margin: 7px 5px;
+ }
+ .listarticle > p,
+ .listeconomic > p {
+ 	margin: 5px 0;
+ }
+
+  /*yule */
+.yule > article {
+	float: left;
+	margin: 7px 5px;
+	width: 190px;
+}
+.yule > article > p {
+	margin: 5px 0;
+}
+
+  /*footer */
+  .footer {
+  	background: #404040;
+  	display: flex;
+  	margin-top: 15px;
+  	align-items: center;
+  }
+  .footer > img {
+  	width: 120px;
+  	filter: grayscale(100%);
+	align-self: center;
+	margin-left: 25px;
+  }
+  .footer > article {
+  	margin-left: 30px;
+  	color: #d8d8d8;
+  }
+  .footer .footerasideimg {
+  	width: 30px;
+  	height: 30px;
+  	background: url('../assets/socialFooter.png');
+  }
+  .footer > aside {
+  	margin-left: 100px;
+  	margin-top: 30px;
+  	align-self: baseline;
+  	width: 400px;
+  }
+  .footer > aside > div {
+  	float: left;
+  }
